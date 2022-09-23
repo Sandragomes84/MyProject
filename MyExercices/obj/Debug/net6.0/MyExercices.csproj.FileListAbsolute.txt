@@ -1,0 +1,15 @@
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\MyExercices.exe
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\MyExercices.deps.json
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\MyExercices.runtimeconfig.json
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\MyExercices.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\MyExercices.pdb
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.csproj.AssemblyReference.cache
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.AssemblyInfoInputs.cache
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.AssemblyInfo.cs
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.csproj.CoreCompileInputs.cache
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\refint\MyExercices.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.pdb
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.genruntimeconfig.cache
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\ref\MyExercices.dll

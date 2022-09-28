@@ -3,7 +3,7 @@ using System;
 
 namespace MyExercices;
 
-public static class NewProject
+public static class Draw
 {
 
     enum Opcao { drawline = 1, drawcolumn = 2, createtriangle = 3, multiplicationtable = 4, clear = 5, exit = 6 }
@@ -186,7 +186,65 @@ public static class NewProject
         }
 
     }
+
+
+
+    public static void Drawrectangulo()
+    {
+
+        Console.WriteLine("Digite o numero correspondente ao cumprimento do retangulo!");
+
+        int cumprimento, largura, y;
+
+        cumprimento = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Digite o numero correspondente à largura do retangulo!");
+
+        largura = int.Parse(Console.ReadLine());
+
+
+        Console.WriteLine(" ");
+        for (int x = 1; x <= cumprimento; x++)
+        {
+            for (y = 1; y <= largura; y++)
+            {
+                Console.Write("# ", y);
+            }
+
+            Console.WriteLine(" ");
+        }
+
+
+
+
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

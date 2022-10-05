@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rTSke+UiC8YEO8AWUJFDIE7+G/CI/RnhX3V5aIZZjBlZ0yGeC3es5cQer33qPYBnG0f4LxyCgVVAA7TjmfMMNQ==",
+  "dgSpecHash": "Da/RPsbWPNS2bl1e0ORIck5IrQNyEP6ssw77erSebuueAQYvCOz4QGBVEfDnUv5pMMWHx2mkoSeDOIo2pWsITg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sandra Gomes\\Repos\\Meus Repositorios\\MyExercices\\MyExercices\\MyExercices.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sandra Gomes\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512",
+    "C:\\Users\\Sandra Gomes\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

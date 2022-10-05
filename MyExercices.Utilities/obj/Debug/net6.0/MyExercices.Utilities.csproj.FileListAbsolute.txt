@@ -1,0 +1,12 @@
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\MyExercices.Utilities.csproj.AssemblyReference.cache
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\MyExercices.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\MyExercices.Utilities.AssemblyInfoInputs.cache
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\MyExercices.Utilities.AssemblyInfo.cs
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\MyExercices.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\bin\Debug\net6.0\MyExercices.Utilities.deps.json
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\bin\Debug\net6.0\MyExercices.Utilities.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\bin\Debug\net6.0\MyExercices.Utilities.pdb
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\MyExercices.Utilities.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\refint\MyExercices.Utilities.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\MyExercices.Utilities.pdb
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices.Utilities\obj\Debug\net6.0\ref\MyExercices.Utilities.dll

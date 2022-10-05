@@ -15,14 +15,11 @@ namespace MyExercices
 
         public static void Drawrectangulo()
         {
-
             Console.WriteLine("Digite a medida do comprimento do retangulo:");
             int comprimento = int.Parse(Console.ReadLine().Trim());
 
-
             Console.WriteLine("Digite a medida da largura do retangulo:");
             int largura = int.Parse(Console.ReadLine().Trim());
-
 
             Console.WriteLine(" ");
 
@@ -36,28 +33,24 @@ namespace MyExercices
                 Console.WriteLine(" ");
             }
 
-
         }
+
 
         //Exercício 2
 
         public static void NumImpar()
         {
-
             int y = 50;
 
             Console.WriteLine("Os números ímpares, são:");
 
             for (int i = 0; i <= y; i++)
             {
-
                 if (i % 2 != 0)
                 {
                     Console.WriteLine($"{i}");
                 }
-
             }
-
         }
 
 
@@ -69,18 +62,11 @@ namespace MyExercices
             int i = 4;
             int count = 0;
 
-
-
             for (i = 4; i < y; i = i + 3)
             {
-
                 count = count + i;
-
                 Console.WriteLine(i);
-
-
             }
-
         }
 
 
@@ -88,13 +74,10 @@ namespace MyExercices
 
         public static void IntervaloNum(int x, int y)
         {
-
             for (int i = x + 1; i < y; i++)
             {
                 Console.WriteLine(i);
-
             }
-
         }
 
 
@@ -108,10 +91,8 @@ namespace MyExercices
             for (i = x + 1; i < y; i++)
             {
                 Console.WriteLine(i);
-
                 Count = Count + i;
             }
-
             Console.WriteLine("A Soma de todos os números é:" + Count);
         }
 
@@ -121,41 +102,34 @@ namespace MyExercices
 
         public static void MaxMin()
         {
-
             int maximo, minimo, numero;
-
 
             Console.WriteLine("Introduza um número inteiro:");
             numero = int.Parse(Console.ReadLine());
             maximo = numero;
             minimo = numero;
 
-
             while (numero != 0)
             {
-
                 Console.WriteLine("Introduza o próximo número:");
                 numero = int.Parse(Console.ReadLine());
                 if (numero != 0)
                 {
                     if (maximo < numero) maximo = numero;
                     if (minimo > numero) minimo = numero;
-
                 }
             }
-
             Console.WriteLine("O valor máximo é = " + maximo);
             Console.WriteLine("O valor mínimo é = " + minimo);
 
         }
 
+
         // Exercício 7
 
         public static void MaxMinSum()
         {
-
             int maior, menor, numero, soma;
-
 
             Console.WriteLine("Introduza um número inteiro:");
             numero = int.Parse(Console.ReadLine());
@@ -164,17 +138,13 @@ namespace MyExercices
 
             while (numero != 0)
             {
-
                 Console.WriteLine("Introduza o próximo número:");
                 numero = int.Parse(Console.ReadLine());
                 if (numero > 0)
                 {
                     soma = soma + numero;
-
-
                 }
             }
-
             Console.WriteLine($"A soma dos números inteiros positivos é: {soma}");
 
         }
@@ -205,16 +175,12 @@ namespace MyExercices
                 {
                     if (max < altura) max = altura;
                     if (min > altura) min = altura;
-
                 }
-
             }
-
 
             Console.WriteLine($"A altura do funcionário mais baixo é: {min.ToString("F2")} cm");
             Console.WriteLine($"A altura do funcionário mais alto é: {max.ToString("F2")} cm");
             Console.WriteLine("A altura média dos funcionários é: " + (double)(soma / n) + "cm");
-
         }
 
 
@@ -222,35 +188,28 @@ namespace MyExercices
 
         public static void SomarDigitos(int n)
         {
-
             int numero, digito;
             int soma = 0;
 
             Console.WriteLine("Digite um número inteiro:");
             numero = Convert.ToInt32(Console.ReadLine());
 
-
             while (numero > 0)
             {
-
                 digito = numero % 10;
                 soma = soma + digito;
                 numero = numero / 10;
-
             }
             Console.WriteLine("A Soma dos digitos é = " + soma);
-
-            Console.Read();
+    
         }
 
         //Exercício 10 - Analisar programa
 
         //Exercício 11
 
-
         public static void Aleatorio()
         {
-
             int n;
 
             Random rnd = new Random();
@@ -274,9 +233,7 @@ namespace MyExercices
 
         public static void Idade(int n)
         {
-           
             int conta, soma, idade;
-          
             conta = 1;
 
             Console.WriteLine($"Digite a idade do funcionário {conta}:");
@@ -290,14 +247,11 @@ namespace MyExercices
                 Console.WriteLine($"Digite a idade do funcionário {conta}:");
                 idade = int.Parse(Console.ReadLine());
                 soma = soma + idade;
-   
             }
             
             double media = soma / (n-1);
-
             Console.WriteLine("A idade média dos funcionários é de : " + media + "anos!");
-
-            
+                        
             if (media > 0 && media <= 25)
             {
                 Console.WriteLine("A maioria dos funcionários  são JOVENS! ");
@@ -305,14 +259,11 @@ namespace MyExercices
             else if(media > 25 && media <= 60)
             {
                 Console.WriteLine("A maioria dos funcionários são ADULTOS! ");
-
             }
             else
             {
                 Console.WriteLine("A maioria dos funcionários são IDOSOS! ");
-
             }
-
 
         }
 
@@ -340,53 +291,109 @@ namespace MyExercices
                 soma = soma + ValoraPagar;
 
                 Console.WriteLine($"O preço de {i} noite/s é de: {precoFinal.ToString("F2")} Euros");
-  
             }
-
             Console.WriteLine($"O preço total relativo às {n} noite/s é de: {soma.ToString("F2")} Euros");
         }
 
 
-
-
         //Exercício 14
-
 
         public static void TaxasCrescimento()
         {
-            
-            double PA = 80000;
+            double pA = 80000;
             double taxaCrescimentoA = 1.03;
-            double PB = 200000;
+            double pB = 200000;
             double taxaCrescimentoB = 0.015;
             double tempo = 0;
-
-            
-            while(PA <= PB)
+                        
+            while(pA <= pB)
             {
-
-                 PA= (PA * taxaCrescimentoA);
-
-                 PB= PB + (PB * taxaCrescimentoB);
-
-
+                 pA= (pA * taxaCrescimentoA);
+                 pB= pB + (pB * taxaCrescimentoB);
                  tempo ++;
-
-      
             }
-
             Console.WriteLine(" A população do País A, demorou " + tempo.ToString("F2") + " anos, para igualar a população do pais B");
 
-            Console.Read();
+        }
+
+        //Exercício 15
+
+        public static void CustoEntradas()
+        {
+            Console.WriteLine("Por favor, digite o número de bilhetes que deseja comprar!");
+            int n = int.Parse(Console.ReadLine());
+           
+            int count = 1;
+            int idade;
+            int preco1 = 0;
+            int preco2 = 0; 
+            int preco3 = 0;
+            int soma = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine($"Por favor, digite a idade relativa ao visitante {count + i}:");
+                int.TryParse(Console.ReadLine(), out idade);
+                                
+                if (idade < 4)
+                {
+                    Console.WriteLine("O bilhete é grátis!");
+                }
+                else if (idade > 4 && idade <= 12)
+                {
+                    preco1 = 6;
+                    Console.WriteLine("O preço deste bilhete corresponde a " + preco1 + " Euros!\n");
+                    soma = soma+preco1;
+                }
+                else if (idade > 12 && idade <= 17)
+                {
+                    preco2 = 12;
+                    Console.WriteLine("O preço deste bilhete corresponde a " + preco2 + " Euros!\n");
+                    soma= soma +preco2;
+                }
+                else if (idade > 17)
+                {
+                    preco3 = 18;
+                    Console.WriteLine("O preço deste bilhete corresponde a " + preco3 + " Euros!\n");
+                    soma = soma +preco3;
+                }
+                else
+                {
+                    Console.WriteLine("opção Inválida");
+                }
+
+            }
+            Console.WriteLine();
+            
+            Console.WriteLine($" O valor total a pagar é: {soma} Euros! ");
 
         }
 
 
+        //Exercício 16
 
 
+        public static void LerNumeros()
+        {
+            Console.WriteLine($"Leitura de 20 números, entre 10 e 30:\n");
 
+            int numFinal = 30;
+            int produto = 0;
 
+            for (int i = 11; i <= numFinal; i++)
+            {
+                Console.Write($"{i}, ");
 
+                if (i >= 10 && i <= 20)
+                {
+                    produto = i * i + 1;
+                }
+                                
+            }
+            Console.WriteLine("\n");
+            Console.WriteLine($"O Produto dos números que constam no intervalo [10,20] é:  {produto} ");
+
+        }
 
     }
 

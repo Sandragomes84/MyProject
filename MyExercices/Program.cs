@@ -1,111 +1,87 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System;
-using System.ComponentModel;
-using System.Formats.Asn1;
-using System.Globalization;
-using System.IO.Pipes;
-using System.Reflection;
-using System.Security.Cryptography.X509Certificates;
 using MyExercices;
 
-namespace MyExercices
+
+/*
+var v1 = new int[] {1, 2, 5};
+var v2 = new int[] {6, 7, 10};
+var v3 = new int[3];
+var v4 = new int[] {5, 10, 15, 20};
+
+
+
+
+
+//Vetor.Randomize(v4);
+
+//Modulo5.Signos();
+
+//var result = Vetor.Add(v1, v2);
+//Vetor.Print2(result);
+
+
+
+int lines = 5;
+int cols = 5;
+
+string[,] m = new string[lines, cols];
+
+Matrix.DrawSquare(m, 'X');*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+List<Coin> coins = new List<Coin>();
+
+coins.Add(new Coin("BTC", 20000));
+coins.Add(new Coin("ETH", 1500));
+coins.Add(new Coin("CHOW", 2.56m));
+coins.Add(new Coin("TUGA", 1.23m));
+
+
+Console.WriteLine("Quantas moedas vai registar?");
+int qt = int.Parse(Console.ReadLine());
+
+var count = 1;
+
+for (int i = 0; i < qt; i++)
 {
+    Console.WriteLine($"Insira o nome da moeda {count++}: ");
+    string name = Console.ReadLine().ToUpper().Trim();
 
-    internal class Program
-    {
-        
-        static void Main(string[] args)
-        {
-            int nAlunos;
-            Console.WriteLine("Quantos Alunos?");
-            int.TryParse(Console.ReadLine(), out nAlunos);
-            
-            int[] notas = new int[nAlunos];
+     if(coins.Any(x => x.Name == name))
+     {
+        Console.WriteLine("Esta moeda já se encontra registada!");
+     }
+     else
+     {
+        Console.WriteLine($"Insira o preço da moeda {count - 1}: ");
+        decimal price = decimal.Parse(Console.ReadLine());
 
-            
-            
-            //Media
-
-            for (int i = 0; i < notas.Length; i++)
-            {
-                Console.WriteLine("Insira a nota " + (i + 1));
-                int nota = int.Parse(Console.ReadLine());
-                notas[i] = nota;
-                
-            }
-
-            int sum = 0;
-
-            for (int i = 0; i < nAlunos; i++)
-            {
-                sum = sum + notas[i];
-                
-            }
-           
-            var avg = sum / nAlunos;
-            Console.WriteLine($"A nota média é de: {avg.ToString("F2")} valores");
-
-
-            // MAX
-
-            int maior = notas[0];
-            int posicaoMaior = 0;
-
-            for (int i = 0; i < nAlunos; i++)
-            {
-                if (notas[i] > maior)
-                {
-                    maior = notas[i];
-                    posicaoMaior = i;
-                }
-            }
-
-            Console.WriteLine($" O valor máximo é: {maior.ToString("F2")}, e está na posição {posicaoMaior}");
-            
-
-
-            //MIN
-
-            int menor = notas[0];
-            int posicaoMenor = 0;
-
-            for (int i = 0; i < nAlunos; i++)
-            {
-                if (notas[i] < menor)
-                {
-                    menor = notas[i];
-                    posicaoMenor = i;
-                }
-            }
-
-            Console.WriteLine($" O valor mínimo é: {menor.ToString("F2")}, e está na posição {posicaoMenor}");
-
-        }
-
-    }
-
-
-
-
-}
-
+        coins.Add(new Coin(name, price));
+        Console.WriteLine();
+     }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+Console.WriteLine();
+Console.WriteLine("MOEDAS JÁ REGISTADAS: ");
+Console.WriteLine();
+foreach (Coin coin in coins)
+{
+    coin.Print();
+}
+Console.ReadLine();
 
 
 

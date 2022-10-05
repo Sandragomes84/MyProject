@@ -13,3 +13,8 @@ C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\
 C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.pdb
 C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.genruntimeconfig.cache
 C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\ref\MyExercices.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\MyExercices.Utilities.dll
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\MyExercices.Utilities.pdb
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\obj\Debug\net6.0\MyExercices.csproj.CopyComplete
+C:\Users\Sandra Gomes\Repos\Meus Repositorios\MyExercices\MyExercices\bin\Debug\net6.0\CsvHelper.dll

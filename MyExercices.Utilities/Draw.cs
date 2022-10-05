@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace MyExercices;
+namespace MyExercices.Utilities;
 
 public static class Draw
 {

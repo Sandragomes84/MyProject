@@ -1,13 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+using MyExercices.Utilities;
 using MyExercices;
 
 
-/*
-var v1 = new int[] {1, 2, 5};
-var v2 = new int[] {6, 7, 10};
+var v1 = new int[] { 2, 3, 4, 12, 6, 7, 1 };
+var v2 = new int[] { 6, 7, 10 };
 var v3 = new int[3];
-var v4 = new int[] {5, 10, 15, 20};
+var v4 = new int[] { 6, 7, 10 };
+var v5 = new int[7];
+
+
+
+
+
+
+
+
+
 
 
 
@@ -22,24 +31,18 @@ var v4 = new int[] {5, 10, 15, 20};
 
 
 
-int lines = 5;
-int cols = 5;
+//int lines = 5;
+//int cols = 5;
 
-string[,] m = new string[lines, cols];
+//string[,] m = new string[lines, cols];
 
-Matrix.DrawSquare(m, 'X');*/
-
-
+//Matrix.DrawX(m, 'X');
 
 
 
 
-
-
-
-
-
-
+                //Coins
+/*
 
 
 List<Coin> coins = new List<Coin>();
@@ -53,11 +56,11 @@ coins.Add(new Coin("TUGA", 1.23m));
 Console.WriteLine("Quantas moedas vai registar?");
 int qt = int.Parse(Console.ReadLine());
 
-var count = 1;
+
 
 for (int i = 0; i < qt; i++)
 {
-    Console.WriteLine($"Insira o nome da moeda {count++}: ");
+    Console.WriteLine($"Insira o nome da moeda {i+1}: ");
     string name = Console.ReadLine().ToUpper().Trim();
 
      if(coins.Any(x => x.Name == name))
@@ -66,7 +69,7 @@ for (int i = 0; i < qt; i++)
      }
      else
      {
-        Console.WriteLine($"Insira o preço da moeda {count - 1}: ");
+        Console.WriteLine($"Insira o preço da moeda {i+1}: ");
         decimal price = decimal.Parse(Console.ReadLine());
 
         coins.Add(new Coin(name, price));
@@ -81,7 +84,7 @@ foreach (Coin coin in coins)
 {
     coin.Print();
 }
-Console.ReadLine();
+Console.ReadLine();*/
 
 
 

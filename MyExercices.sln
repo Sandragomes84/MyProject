@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyExercices", "MyExercices\MyExercices.csproj", "{2FB72763-D046-469C-AB3D-20360AA150B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExercices.Utilities", "MyExercices.Utilities\MyExercices.Utilities.csproj", "{3F80053C-620D-4486-B008-746A5B717FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyExercices.Utilities", "MyExercices.Utilities\MyExercices.Utilities.csproj", "{3F80053C-620D-4486-B008-746A5B717FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRacing", "CarRacing\CarRacing.csproj", "{9F1B3098-528E-4759-886D-266F1B1F2DF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3F80053C-620D-4486-B008-746A5B717FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F80053C-620D-4486-B008-746A5B717FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F80053C-620D-4486-B008-746A5B717FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1B3098-528E-4759-886D-266F1B1F2DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1B3098-528E-4759-886D-266F1B1F2DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1B3098-528E-4759-886D-266F1B1F2DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1B3098-528E-4759-886D-266F1B1F2DF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

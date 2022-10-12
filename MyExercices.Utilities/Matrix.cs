@@ -6,6 +6,7 @@ namespace MyExercices.Utilities;
 public class Matrix
 {
 
+
     public static void Print(string[,] mat)
     {
         int lines = mat.GetLength(0);
@@ -130,9 +131,12 @@ public class Matrix
 
             for (int j = 0; j < m.GetLength(1); j++)
             {
-                m[i, j] = c.ToString();
-                m[i, j] =  i == 1 && j == 1 || i == 2 && j == 0 || i == 0 && j == 2 ? m[i, j] : " ";
+                
 
+                m[i, j] = c.ToString();
+                m[i, j] = (j == 4-i) ? m[i, j] : " ";
+
+             
                 Console.Write(m[i, j] + " ");
 
             }
@@ -142,7 +146,6 @@ public class Matrix
 
     }
 
-    /*
     public static void DrawX(string[,] m, char c)
     {
 
@@ -152,7 +155,7 @@ public class Matrix
             for (int j = 0; j < m.GetLength(1); j++)
             {
                 m[i, j] = c.ToString();
-                m[i, j] = i == j || i == 1 && j == 1 || i == 2 && j == 0 || i == 0 && j == 2 ? m[i, j] : " ";
+                m[i, j] = i == j || (j == 4 - i) ? m[i, j] : " ";
 
                 Console.Write(m[i, j] + " ");
 
@@ -161,15 +164,8 @@ public class Matrix
 
         }
 
-    }*/
+    }
     
-
-
-
-
-
-
-
 
 
     public static void DrawBorder(string[,] m, char c)
